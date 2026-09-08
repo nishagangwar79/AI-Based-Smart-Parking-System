@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer utilities {
+  .slot-available {
+    @apply bg-emerald-100 border-emerald-400 text-emerald-800;
+  }
+  .slot-occupied {
+    @apply bg-red-100 border-red-400 text-red-800;
+  }
+  .slot-reserved {
+    @apply bg-amber-100 border-amber-400 text-amber-800;
+  }
+  .slot-maintenance {
+    @apply bg-slate-200 border-slate-400 text-slate-600;
+  }
+}
